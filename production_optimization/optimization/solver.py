@@ -5,7 +5,7 @@ from production_optimization.optimization.objective import set_objective
 def run_optimization():
     """
     Solves a linear programming problem to maximize profit from producing five products
-    under given resource constraints.
+    under given resource constraints .
     """
     # Create a linear programming problem instance
     model = pl.LpProblem("Maximize_Profit", pl.LpMaximize)
