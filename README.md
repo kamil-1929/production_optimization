@@ -38,10 +38,10 @@ python optimization.py
 The script will display the status of the solution, optimal production quantities for each product, total profit, and resource utilization.
 
 ## Files
-optimization.py: Contains the code to define and solve the linear programming problem.
-test_optimization.py: Includes test cases to validate the optimization logic.
-docs/: Directory containing the user guide and additional documentation.
-requirements.txt: Lists the dependencies required to run the project.
+- optimization.py: Contains the code to define and solve the linear programming problem.
+- test_optimization.py: Includes test cases to validate the optimization logic.
+- docs/: Directory containing the user guide and additional documentation.
+- requirements.txt: Lists the dependencies required to run the project.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code adheres to the existing style and includes appropriate tests.
