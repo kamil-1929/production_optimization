@@ -1,17 +1,6 @@
 ## Production Optimization Project
 This project contains tools and scripts for optimizing the production of products under given constraints to maximize profit.
 
-## Structure
-
-- **.github/**: GitHub workflows for CI/CD.
-- **docs/**: Documentation files.
-- **production_optimization/**: Main package.
-- **tests/**: Unit tests.
-- **config/**: Configuration files.
-- **data/**: Input and output data directories.
-- **scripts/**: Scripts to run the optimization.
-- **examples/**: Example usage of the optimization tool.
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
