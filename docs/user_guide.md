@@ -28,8 +28,15 @@ pip install -r requirements.txt
 To run the optimization script, execute the following command in your terminal:
 
 ```sh
-python optimization.py
+python -m scripts.run_optimization
 ```
+
+## Testing
+To run the tests, use the following command:
+```sh
+python -m unittest discover tests
+```
+
 ## Output
 The script will output the following information:
 
@@ -52,15 +59,8 @@ Total Machine Time Utilization: 78.0 units
 Total Raw Materials Utilization: 68.0 units
 ```
 
-## Testing
-To run the test cases and validate the optimization logic, execute the following command:
-
-```sh
-python -m unittest discover -s tests
-```
-
 ## Additional Information
-For more details on the constraints and objective function used in the optimization, refer to the comments and documentation within the optimization.py script.
+For more details on the constraints and objective function used in the optimization, refer to the comments and documentation within the solver.py script.
 
 ## Support
 If you encounter any issues or have questions, please open an issue on the GitHub repository.

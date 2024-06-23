@@ -1,12 +1,12 @@
 import unittest
-from production_optimization.optimization import run_optimization
+from production_optimization.optimization.solver import run_optimization
 
 class TestOptimization(unittest.TestCase):
 
     def test_optimization_solution(self):
         model = run_optimization()
         
-        # Check if the status is optimal
+        # Check if the status is optimal 
         self.assertEqual(model.status, 1, "The optimization model did not solve to optimality.")
         
         # Add more specific tests as needed
