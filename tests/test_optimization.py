@@ -1,5 +1,5 @@
 import unittest
-from production_optimization.optimization import run_optimization
+from production_optimization.optimization.solver import run_optimization
 
 class TestOptimization(unittest.TestCase):
 
