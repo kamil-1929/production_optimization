@@ -13,7 +13,7 @@ def run_optimization():
         x5: Units of product P5
         
     Objective:
-        Maximize total profit from the production of products P1 to P5.
+        Maximize total profit from the production of products P1 to P5 .
         
     Constraints:
         - Labor constraint
