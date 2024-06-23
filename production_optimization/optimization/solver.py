@@ -39,7 +39,7 @@ def run_optimization():
     # Display the total profit
     print(f"Total Profit: ${pl.value(model.objective)}")
 
-    # Optional: Display the resource utilization for better insight
+    # Display the resource utilization for better insight
     labor_utilization = 2 * x1.varValue + 3 * x2.varValue + x3.varValue + 4 * x4.varValue + 5 * x5.varValue
     machine_time_utilization = 3 * x1.varValue + 2 * x2.varValue + 4 * x3.varValue + x4.varValue + 3 * x5.varValue
     raw_materials_utilization = 4 * x1.varValue + x2.varValue + 3 * x3.varValue + 2 * x4.varValue + 2 * x5.varValue
