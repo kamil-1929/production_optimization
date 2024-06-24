@@ -8,8 +8,6 @@ class TestOptimization(unittest.TestCase):
         
         # Check if the status is optimal 
         self.assertEqual(model.status, 1, "The optimization model did not solve to optimality.")
-        
-        # Add more specific tests as needed
         self.assertGreaterEqual(model.objective.value(), 0, "The total profit should be non-negative.")
 
 if __name__ == '__main__':
