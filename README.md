@@ -1,4 +1,4 @@
-## This is a Master's Project created for my study module
+## This project was developed as part of my master's degree coursework. It serves as a practical implementation of concepts covered in my study module.
 
 ## Production Optimization Project
 This project contains tools and scripts for optimizing the production of products under given constraints to maximize profit.
