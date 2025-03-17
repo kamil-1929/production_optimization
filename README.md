@@ -1,3 +1,5 @@
+## This is a Master's Project created for my study module
+
 ## Production Optimization Project
 This project contains tools and scripts for optimizing the production of products under given constraints to maximize profit.
 
